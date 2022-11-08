@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profinde</title>
+</head>
+<body>
+    <form method="post" action="woldog64@yahoo.com" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Datos del Usuario</legend>
+            <label for="nombres">Nombres</label>
+            <input type="text" id="nombres" name=""><br>
+            <label for="apellidos">Apellidos</label>
+            <input type="text" id="apellidos"><br>
+            <label for="telefono">Telefono</label>
+            <input type="number" id="telefono"><br>
+            <label for="correo">Correo Electronico</label>
+            <input type="email" id="correo"><br>
+            <input type="checkbox">Colombia<br>
+            <select>
+                <option>Bogota</option><br>
+                <option>Medellin</option>
+            </select>
+            <br>
+            <input type="radio" name="opcion">Maestro de Obra<br>
+            <input type="radio" name="opcion">Electrico<br>
+            <input type="radio" name="opcion">Estilista<br>
+            <label for="documento">Subir documento</label><br>
+            <input type="file" name="file" id="documento"><br>
+            <label for="fecha">Fecha</label>
+            <input type="date" name="" id="fecha"><br>
+            <label for="areatexto">Descripcion</label><br>
+            <textarea id="areatexto"></textarea><br>
+            <button type="reset" value="Resetear">restablecer</button><br>
+            <input type="submit" onclick="return enviar()" value="Enviar">
+        </fieldset>
+    </form>
+    <script src="/_js/formulario.js"></script>
+</body>
+</html>
